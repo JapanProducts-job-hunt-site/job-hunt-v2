@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/JapanProducts-job-hunt-site/job-hunt-v2/issues"
   },
-  "homepage": "https://github.com/JapanProducts-job-hunt-site/job-hunt-v2#readme"
+  "homepage": "https://github.com/JapanProducts-job-hunt-site/job-hunt-v2#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "mongodb": "^2.2.28",
+    "passport": "^0.3.2"
+  }
 }

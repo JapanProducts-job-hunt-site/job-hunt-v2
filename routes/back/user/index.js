@@ -4,8 +4,8 @@
 var express = require('express');
 var router = express.Router();
 
-var ctrlIndex = require("/index.js");
-var ctrlMyPage = require("/public/static/myPage.js");
+var ctrlIndex = require("../../../controller/ctrlIndex");
+//var ctrlMyPage = require("/public/static/myPage");
 
 //index.html
 router.post("/insert", ctrlIndex.register());

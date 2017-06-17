@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 var url = 'mongodb://localhost:27017/test';
 
 
-module.exports.register = functin (res, req)
+module.exports.register = function (res, req)
 {
     console.log("insert");
     console.log(req.body);
@@ -37,7 +37,7 @@ module.exports.register = functin (res, req)
 
 
 
-module.exports.login = functin(res, req)
+module.exports.login = function(res, req)
 {
     mongodb.connect(url, function(err, db)
     {

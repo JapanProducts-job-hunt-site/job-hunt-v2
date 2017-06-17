@@ -2,7 +2,7 @@
  * Created by KishikawaItaru on 2017/06/14.
  */
 var app = require("../app.js");
-var debug = require('debug')('05-express-first-app:server');
+var debug = require('debug')();
 var http = require('http');
 
 //Get port from environment and store in Express.

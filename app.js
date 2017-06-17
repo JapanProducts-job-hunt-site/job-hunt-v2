@@ -9,9 +9,13 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var app = express();
+console.log(__dirname + "/routes/back/user/index");
+var routes = require(__dirname + "/routes/back/user/index");
+
+
 
 // view engine setup
-app.set('public', path.join(__dirname, 'public'));
+app.set('public', path.join(__dirname, '/public'));
 app.set('view engine', 'html');
 
 app.use(logger('dev'));
@@ -20,8 +24,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-//call index.html (first page to see)
-app.use("/", "index.html");
+app.use(function(req, res) {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+
+
+//call index.js back (first page to see)
+app.use("/", routes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next)

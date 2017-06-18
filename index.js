@@ -1,5 +1,6 @@
 /**
- * Created by KishikawaItaru on 2017/06/14.
+ * どうでも良い消してもいいファイル
+ * テストで作ったファイルだから無視して
  */
 var express = require('express');
 var router = express.Router();

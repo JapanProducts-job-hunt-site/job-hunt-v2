@@ -1,3 +1,7 @@
+/*
+このファイルでデーターベースと繋げて情報のやり取りをする
+ */
+
 var express = require("express");
 var app = express();
 var mongodb = require('mongodb').MongoClient;
@@ -9,7 +13,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 var url = 'mongodb://localhost:27017/test';
 
 
-module.exports.register = function (res, req)
+module.exports.register = function (req, res)
 {
     console.log("insert");
     console.log(req.body);
@@ -37,7 +41,7 @@ module.exports.register = function (res, req)
 
 
 
-module.exports.login = function(res, req)
+module.exports.login = function(req, res)
 {
     mongodb.connect(url, function(err, db)
     {

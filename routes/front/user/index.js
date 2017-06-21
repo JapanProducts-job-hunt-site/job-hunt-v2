@@ -8,13 +8,14 @@
  */
 //define angular application
 var app = angular.module('mainApp', ['ngRoute', 'ui.bootstrap', 'ngAnimate']);
-app.config(function ($routeProvider) {
+app.config(function ($routeProvider)
+{
     $routeProvider
         .when('/', {
             templateUrl: '../../../index.html'
         })
-        .when('/mypage', {
-           templateUrl: '../../user/mypage.html'
+        .when('/myPage', {
+           templateUrl: '../../user/myPage.html'
         })
         .otherwise({
             redirectTo: '/'

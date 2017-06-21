@@ -31,7 +31,7 @@ app.use(function(req, res)
 
 
 //call index.js(back end)
-app.use("/", routes);
+app.use("/api", routes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next)

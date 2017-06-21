@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/JapanProducts-job-hunt-site/job-hunt-v2#readme",
   "dependencies": {
+    "angular": "^1.6.4",
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.15.3",

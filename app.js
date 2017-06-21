@@ -9,7 +9,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var app = express();
-console.log(__dirname + "/routes/back/user/index");
 var routes = require(__dirname + "/routes/back/user/index");
 
 

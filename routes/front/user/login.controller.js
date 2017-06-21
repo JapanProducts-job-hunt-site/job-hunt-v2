@@ -8,31 +8,28 @@
  * call function caller and then do authentication
  */
 
-app.controller('loginCtrl', function ($scope, $location, $rootScope, authentication) {
+app.controller('loginCtrl', function ($scope, $location, $rootScope, authentication)
+{
     //login submission process
-    $scope.submit = function(){
+    $scope.submit = function()
+    {
         $rootScope.username = $scope.username;
         //define user with JSON
-        var user = {
-            "username" : $scope.username,
-            "password" : $scope.password
-        };
+        var user =
+            {
+                "email" : $scope.email,
+                "password" : $scope.password
+            };
 
-        authentication.login(user).error(function(err){
+        authentication.login(user).error(function(err)
+        {
             //run here if api returns error status
             alert("user name or password is not correct");
-        }).then(function(){
+        }).then(function()
+        {
             //run here if user can login successfully
-            $location.path("../../user/mypage.html");
+            $location.path("../../user/myPage.html");
         });
 
-
-
-
-
-
     };// end of $scope.submit
-
-
-    
 });

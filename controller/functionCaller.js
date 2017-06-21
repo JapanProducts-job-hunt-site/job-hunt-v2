@@ -43,8 +43,8 @@ function authentication($http)
 
     return
     {
-        //register: register,
-        //login: login()
+        register: register,
+        login: login
     }
 
 }//authentication

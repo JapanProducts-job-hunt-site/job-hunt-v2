@@ -10,8 +10,12 @@
 var app = angular.module('mainApp', ['ngRoute', 'ui.bootstrap', 'ngAnimate']);
 app.config(function ($routeProvider)
 {
+<<<<<<< HEAD
     console.log("------------------loginController-------------------");
 
+=======
+    console.log("in index.js");
+>>>>>>> origin/master
     $routeProvider
         .when('/', {
             templateUrl: '../../../index.html'

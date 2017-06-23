@@ -47,7 +47,7 @@ function authentication($http)
 
     return
     {
-        register: register,
+        register: register ,
         login: login
     }
 

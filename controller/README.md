@@ -1,1 +1,1 @@
-this folder have the files to communite with DB
+this folder have the files to communicate with DB

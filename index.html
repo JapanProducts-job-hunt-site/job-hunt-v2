@@ -5,39 +5,39 @@
     <title>Title</title>
     <!--- CDNs --->
     <!--- Jquery for bootstrap --->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <!--------------------------  Angular JS ---------------------------------------->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script type="javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <!-------------------------- Bootstrap ------------------------------------------>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+    <script type="javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+    <script type="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
 
 
     <!---------- importing angular applications ---------------------------------->
     <!--- front side routing -->
-    <script src="./routes/front/user/index.js"></script>
+    <script type="javascript" src="./routes/front/user/index.js"></script>
     <!--- backed-api caller -->
-    <script src="./controller/functionCaller.js"></script>
+    <script type="javascript" src="./controller/functionCaller.js"></script>
     <!--- xx.controller.js where xx is name of html files --->
-    <script src="./routes/front/user/login.controller.js"></script>
-    <script src="./routes/front/user/mypage.controller.js"></script>
-    <script src="./controller/signUpController.js"></script>
+    <script type="javascript" src="./routes/front/user/login.controller.js"></script>
+    <script type="javascript" src="./routes/front/user/mypage.controller.js"></script>
+    <script type="javascript" src="./controller/signUpController.js"></script>
 
 
 
     <!-- importing css --->
-    <script src="./public/index.css"></script>
+    <link type="text/css" src="./public/index.css"/>
 
 </head>
-<body ng-app="mainApp">
+<body data-ng-app = "mainApp">
 
 
 <!--<script src="libs/angular/angular.js"></script> <script src="libs/angular-route/angular-route.min.js"></script>-->
@@ -48,7 +48,6 @@
 
 
 <link rel="stylesheet" type="text/css" href= "/index.css"><!--style="background-color: #525252;" href="/static/index.css"-->
-<style> body{background-color:#525252;}</style>
 
 <!--//////////////////////////////////  Nav bar  ///////////////////////////////////////////////-->
 <nav class="navbar navbar-inverse">
@@ -65,7 +64,7 @@
         </div>
 
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-ng-controller="loginCtrl">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">About Us</a></li>
@@ -73,15 +72,15 @@
                 <li><a href="#">Registration</a></li>
 
             </ul>
-            <form id="signin" class="navbar-form navbar-right" role="form" method="get" action="./getData">
+            <form id="signin" data-ng-submit="submit()" class="navbar-form navbar-right" role="form" method="get" action="./getData">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                    <input id="email" ng-model="email" type="email" class="form-control" name="email" value="" placeholder="Email Address">
+                    <input id="email" data-ng-model="email" type="email" class="form-control" name="email" value="" placeholder="Email Address">
                 </div>
 
                 <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                    <input id="password" ng-model="password" type="password" class="form-control" name="password" value="" placeholder="Password">
+                    <input id="password" data-ng-model="password" type="password" class="form-control" name="password" value="" placeholder="Password">
                 </div>
 
                 <button type="submit" class="btn btn-primary">Login</button>
@@ -89,7 +88,7 @@
 
         </div>
     </div>
-</nav></div>
+</nav>
 <!--//////////////////////////////////  Nav bar  ///////////////////////////////////////////////-->
 
 
@@ -102,29 +101,29 @@
                 <div class="panel-heading">
                     <h3 class="panel-title">Please sign up for Bootsnipp <small>It's free!</small></h3>
                 </div>
-                <div class="panel-body">
-                    <form role="form" method="post" action="./insert">
+                <div class="panel-body" data-ng-controller="signUpCtrl">
+                    <form role="form" method="post" action="./insert" data-ng-submit="submit()" >
                         <div class="row">
                             <div class="col-xs-6 col-sm-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" ng-model="firstName" name="firstName" id="first_name" class="form-control input-sm" placeholder="First Name">
+                                    <input type="text" data-ng-model="firstName" name="firstName" id="first_name" class="form-control input-sm" placeholder="First Name">
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" ng-model="lastName" name="lastName" id="last_name" class="form-control input-sm" placeholder="Last Name">
+                                    <input type="text" data-ng-model="lastName" name="lastName" id="last_name" class="form-control input-sm" placeholder="Last Name">
                                 </div>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <input type="email" ng-model="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address">
+                            <input type="email" data-ng-model="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address">
                         </div>
 
                         <div class="row">
                             <div class="col-xs-6 col-sm-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="password" ng-model="password"  name="password" id="password" class="form-control input-sm" placeholder="Password">
+                                    <input type="password" data-ng-model="password"  name="password" id="password" class="form-control input-sm" placeholder="Password">
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-6 col-md-6">

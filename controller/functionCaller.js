@@ -4,12 +4,13 @@
 
 //serviceを使うことによってpublic的なweb内でどこでも使えるfunctionになる
 app.service('authentication', authentication);
-
 authentication.$inject = ["$http"];
 function authentication($http)
 {
     register = function(userInfo)
     {
+        console.log("------------------functinCaller.register-------------------");
+
         return $http
         (
             {
@@ -30,8 +31,11 @@ function authentication($http)
 
     login = function(userInfo)
     {
+        console.log("------------------functinCaller.login-------------------");
+
         return $http
         (
+
             {
                 method: "GET",
                 url: "http://localhost:4000/api/login",

@@ -7,6 +7,7 @@
 
 app.controller('signUpCtrl', function ($scope, $location, $rootScope, authentication)
 {
+    console.log("----------------------signUpController.js-------------------");
     $scope.submit = function ()
     {
         //THIS IS WHERE CHECK IF ACCOUNT EXISTS

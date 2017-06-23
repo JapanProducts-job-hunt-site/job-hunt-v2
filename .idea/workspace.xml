@@ -34,8 +34,13 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="450">
               <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+=======
+            <state relative-caret-position="435">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+>>>>>>> parent of ef214a2... a
 =======
             <state relative-caret-position="435">
               <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
@@ -92,6 +97,7 @@
         <entry file="file://$PROJECT_DIR$/routes/back/user/index.js">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="135">
               <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding />
@@ -104,6 +110,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+            <state relative-caret-position="165">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+>>>>>>> parent of ef214a2... a
 =======
             <state relative-caret-position="165">
               <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
@@ -170,7 +180,10 @@
         <option value="$PROJECT_DIR$/bin/www.js" />
         <option value="$PROJECT_DIR$/package.json" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/routes/back/user/index.js" />
+=======
+>>>>>>> parent of ef214a2... a
 =======
 >>>>>>> parent of ef214a2... a
         <option value="$PROJECT_DIR$/app.js" />
@@ -196,6 +209,9 @@
 =======
     <option name="width" value="1271" />
     <option name="height" value="712" />
+<<<<<<< HEAD
+>>>>>>> parent of ef214a2... a
+=======
 >>>>>>> parent of ef214a2... a
   </component>
   <component name="ProjectView">
@@ -215,7 +231,10 @@
     <panes>
       <pane id="Scratches" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> parent of ef214a2... a
 =======
 >>>>>>> parent of ef214a2... a
       <pane id="ProjectPane">
@@ -331,6 +350,9 @@
 <<<<<<< HEAD
 =======
       <pane id="Scope" />
+<<<<<<< HEAD
+>>>>>>> parent of ef214a2... a
+=======
 >>>>>>> parent of ef214a2... a
     </panes>
   </component>
@@ -444,6 +466,7 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7851000" />
   </component>
   <component name="ToolWindowManager">
@@ -459,6 +482,14 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> parent of ef214a2... a
+=======
+    <option name="totallyTimeSpent" value="7560000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="9" y="23" width="1271" height="712" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> parent of ef214a2... a
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -466,7 +497,11 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23927392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33064517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of ef214a2... a
 =======
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33064517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
 >>>>>>> parent of ef214a2... a
@@ -677,6 +712,7 @@
         <state relative-caret-position="435">
           <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
 <<<<<<< HEAD
+<<<<<<< HEAD
           <folding />
         </state>
       </provider>
@@ -734,10 +770,13 @@
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
 =======
 >>>>>>> parent of ef214a2... a
+=======
+>>>>>>> parent of ef214a2... a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -774,6 +813,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> parent of ef214a2... a
 =======
 >>>>>>> parent of ef214a2... a
     <entry file="file://$PROJECT_DIR$/package-lock.json">
@@ -972,12 +1013,18 @@
     <entry file="file://$PROJECT_DIR$/bin/www.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="1080">
           <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
           <folding>
             <marker date="1497737812000" expanded="true" signature="1186:1301" ph="..." />
             <marker date="1497737812000" expanded="true" signature="1449:1474" ph="..." />
           </folding>
+=======
+        <state relative-caret-position="435">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+>>>>>>> parent of ef214a2... a
 =======
         <state relative-caret-position="435">
           <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
@@ -1008,6 +1055,9 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+<<<<<<< HEAD
+>>>>>>> parent of ef214a2... a
+=======
 >>>>>>> parent of ef214a2... a
         </state>
       </provider>
@@ -1023,8 +1073,13 @@
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+>>>>>>> parent of ef214a2... a
 =======
         <state relative-caret-position="165">
           <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />

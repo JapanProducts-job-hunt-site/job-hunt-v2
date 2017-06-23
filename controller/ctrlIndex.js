@@ -15,7 +15,7 @@ var url = 'mongodb://localhost:27017/test';
 
 module.exports.register = function (req, res)
 {
-    console.log("insert");
+    console.log("------------------ctrlIndex.register-------------------");
     console.log(req.body);
     var item =
         {
@@ -43,6 +43,7 @@ module.exports.register = function (req, res)
 
 module.exports.login = function(req, res)
 {
+    console.log("------------------ctrlIndex.login-------------------");
     mongodb.connect(url, function(err, db)
     {
         assert.equal(null, err); //check if there is error or not. If ok, continue
@@ -78,4 +79,4 @@ module.exports.login = function(req, res)
             }
         });
     });
-}
+};

@@ -8,7 +8,7 @@ var ctrlIndex = require("../../../controller/ctrlIndex");
 //var ctrlMyPage = require("/public/static/myPage");
 
 //index.html
-router.post("/insert", ctrlIndex.register);
-router.get("/getData", ctrlIndex.login);
+router.post("/register", ctrlIndex.register);
+router.get("/login", ctrlIndex.login);
 
 module.exports = router;

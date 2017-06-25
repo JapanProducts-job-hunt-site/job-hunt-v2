@@ -19,7 +19,7 @@ var users = require('./routes/users');
 
 var app = express();
 
-mongoose.connect('mongodb://a:1@ds135522.mlab.com:35522/login-app');
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

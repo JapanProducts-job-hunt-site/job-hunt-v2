@@ -1,2 +1,4 @@
 #igonore .idea folder
 .idea/
+.config/
+config.js

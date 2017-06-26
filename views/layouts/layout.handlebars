@@ -1,13 +1,45 @@
+{{!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">--}}
+
 <!DOCTYPE html>
 <html>
 
 <head>
   <title>LoginApp</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css/myPage.css" />
+
+  <script src="/js/myPage.js" type="javascript"></script>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.min.css">
   <link rel="stylesheet" href="/css/bootstrap.css" />
   <link rel="stylesheet" href="/css/style.css" />
+
 </head>
 
 <body>
+  
   <div class="container">
     <div class="header clearfix">
       <nav>
@@ -21,7 +53,7 @@
           {{/if}}
         </ul>
       </nav>
-      <h3 class="text-muted">Project name</h3>
+      <h3 class="text-muted">Job Hunt</h3>
     </div>
 
     <div class="row marketing">
@@ -32,14 +64,12 @@
         <div class="alert alert-danger"> {{error_msg}}</div>
         {{/if}} {{#if error}}
         <div class="alert alert-danger"> {{error}}</div>
-        {{/if}} 
-        
-        {{{body}}}
+        {{/if}} {{{body}}}
       </div>
     </div>
 
     <footer class="footer">
-      <p>&copy; 2016 LoginApp, Inc.</p>
+      <p>&copy; 2017 Japan Product, Inc.</p>
     </footer>
 
   </div>

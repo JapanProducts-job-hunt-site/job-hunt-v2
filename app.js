@@ -12,7 +12,6 @@ var app = express();
 var routes = require(__dirname + "/routes/back/user/index");
 
 
-
 // view engine setup
 app.set('public', path.join(__dirname, '/public'));
 app.set('view engine', 'html');
@@ -65,3 +64,5 @@ app.use(function(err, req, res, next)
 });
 
 module.exports = app;
+aa
+
